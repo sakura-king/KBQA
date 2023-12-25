@@ -3,6 +3,7 @@
 将best_model.weights文件放入knowledge_extraction\bilstm_crf\checkpoint，将roberta放入nlu中
 
 系统使用说明如下：
+
 1、BiLSTM-CRF模型的模型参数存在knowledge_extraction\bilstm_crf\checkpoint下的best_bilstm_crf_model.h5文件中。模型训练代码在此目录的train.py文件中，基于该模型的命名实体识别可以在app.py文件中运行，得出如3.1小节的实验结果。
 
 2、BERT-TextCNN模型的模型参数存在nlu\bert_intent_recognition\checkpoint下的best_model.weights文件中。模型训练代码在此目录的train.py文件中，基于该模型的命名实体识别可以在app.py文件中运行，得出如3.1小节的实验结果。

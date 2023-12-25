@@ -1,0 +1,15 @@
+{
+    "ask_template": "您想问 '{Disease}' 的治愈率吗？", 
+    "choice_answer": "得了'心脏病' 的治愈率为：30%", 
+    "cql_template": "MATCH(p:疾病) WHERE p.name='{Disease}' RETURN p.cured_prob", 
+    "deny_response": "您说的我有点不明白，您可以换个问法问我哦~", 
+    "intent_strategy": "clarify", 
+    "reply_answer": "您想问 '心脏病' 的治愈率吗？", 
+    "reply_template": "得了'{Disease}' 的治愈率为：", 
+    "slot_list": [
+        "Disease"
+    ], 
+    "slot_values": {
+        "Disease": "心脏病"
+    }
+}

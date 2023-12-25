@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="21ff4f9c-a658-42ff-b029-ea20b4b1de7a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/KBQA-for-Diagnosis-main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build_kg/build_kg_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph_data/checks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph_data/departments.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph_data/diseases.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph_data/drugs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph_data/foods.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph_data/medical.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph_data/producers.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph_data/recipes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph_data/rels_acompany.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph_data/rels_category.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph_data/rels_check.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph_data/rels_commonddrug.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph_data/rels_department.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph_data/rels_doeat.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph_data/rels_drug_producer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph_data/rels_noteat.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph_data/rels_recommanddrug.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph_data/rels_recommandeat.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph_data/rels_symptom.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph_data/symptoms.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledge_extraction/ChineseBLUE/cMedQANER/cMedQANER.tar.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledge_extraction/ChineseBLUE/cMedQANER/dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledge_extraction/ChineseBLUE/cMedQANER/dev.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledge_extraction/ChineseBLUE/cMedQANER/test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledge_extraction/ChineseBLUE/cMedQANER/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledge_extraction/ChineseBLUE/cMedQANER/train.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledge_extraction/ChineseBLUE/cMedQANER/train.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledge_extraction/bilstm_crf/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledge_extraction/bilstm_crf/bilstm_crf_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledge_extraction/bilstm_crf/checkpoint/best_bilstm_crf_model.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledge_extraction/bilstm_crf/checkpoint/bilstm_crf_model.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledge_extraction/bilstm_crf/checkpoint/dense_bilstm_crf_model.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledge_extraction/bilstm_crf/checkpoint/diseases.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledge_extraction/bilstm_crf/checkpoint/word_tag_id.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledge_extraction/bilstm_crf/crf_layer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledge_extraction/bilstm_crf/data_helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledge_extraction/bilstm_crf/metrics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledge_extraction/bilstm_crf/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledge_extraction/build_baiduie_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nlu/bert_intent_recognition/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nlu/bert_intent_recognition/bert_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nlu/bert_intent_recognition/checkpoint/best_model.weights" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nlu/bert_intent_recognition/data/test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nlu/bert_intent_recognition/data/train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nlu/bert_intent_recognition/data_helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nlu/bert_intent_recognition/label" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nlu/bert_intent_recognition/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nlu/roberta/__MACOSX/._bert_model.ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nlu/roberta/__MACOSX/._bert_model.ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nlu/roberta/__MACOSX/._bert_model.ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nlu/roberta/__MACOSX/._vocab.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nlu/roberta/bert_config_rbt3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nlu/roberta/bert_model.ckpt.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nlu/roberta/bert_model.ckpt.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nlu/roberta/bert_model.ckpt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nlu/roberta/vocab.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nlu/sklearn_Classification/clf_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nlu/sklearn_Classification/data/intent_recog_data(before).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nlu/sklearn_Classification/data/intent_recog_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nlu/sklearn_Classification/model_file/LR.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nlu/sklearn_Classification/model_file/gbdt.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nlu/sklearn_Classification/model_file/id2label.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nlu/sklearn_Classification/model_file/svc_clf.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nlu/sklearn_Classification/model_file/vec.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nlu/sklearn_Classification/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run_intent_recog_service.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run_ner_service.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/json_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/logs/sakura.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2LB1gigGqHAHASnC5rq00lqiWpo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CrowdSourcing/Adversarial Learning from Crowds/A-LFC-main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\KBQA-for-Diagnosis-main\knowledge_extraction\bert_bilstm_crf" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.modules">
+    <configuration name="app (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="KBQA-for-Diagnosis-main" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/knowledge_extraction/bilstm_crf" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/knowledge_extraction/bilstm_crf/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="KBQA-for-Diagnosis-main" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nlu/bert_intent_recognition" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nlu/bert_intent_recognition/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="modules" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="KBQA-for-Diagnosis-main" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="KBQA-for-Diagnosis-main" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nlu/bert_intent_recognition" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nlu/bert_intent_recognition/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="KBQA-for-Diagnosis-main" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/knowledge_extraction/bilstm_crf" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/knowledge_extraction/bilstm_crf/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.modules" />
+        <item itemvalue="Python.app (1)" />
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.train (1)" />
+        <item itemvalue="Python.train" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="21ff4f9c-a658-42ff-b029-ea20b4b1de7a" name="Changes" comment="" />
+      <created>1675329774608</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675329774608</updated>
+      <workItem from="1703384808836" duration="1642000" />
+      <workItem from="1703488945830" duration="728000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.bat" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -4,9 +4,9 @@
 
 系统使用说明如下：
 
-1、BiLSTM-CRF模型的模型参数存在knowledge_extraction\bilstm_crf\checkpoint下的best_bilstm_crf_model.h5文件中。模型训练代码在此目录的train.py文件中，基于该模型的命名实体识别可以在app.py文件中运行，得出如3.1小节的实验结果。
+1、BiLSTM-CRF模型的模型参数存在knowledge_extraction\bilstm_crf\checkpoint下的best_bilstm_crf_model.h5文件中。模型训练代码在此目录的train.py文件中，基于该模型的命名实体识别可以在app.py文件中运行。
 
-2、BERT-TextCNN模型的模型参数存在nlu\bert_intent_recognition\checkpoint下的best_model.weights文件中。模型训练代码在此目录的train.py文件中，基于该模型的命名实体识别可以在app.py文件中运行，得出如3.1小节的实验结果。
+2、BERT-TextCNN模型的模型参数存在nlu\bert_intent_recognition\checkpoint下的best_model.weights文件中。模型训练代码在此目录的train.py文件中，基于该模型的意图识别可以在app.py文件中运行。
 
 3、使用医疗问答系统首先要构建医疗知识图谱，需要配置neo4j图数据库，并配置相应的端口号、用户名、密码至build_kg_utils.py文件的MedicalExtractor函数里，并运行该文件，即可在neo4j图数据库中构建相应的结点以及关系。构建完成后在cmd命令行输入neo4j.bat console，在弹出的窗口中输入用户名和密码即可进入neo4j的可视化界面，输入相关命令来对结点以及相应的关系进行查找。
 
